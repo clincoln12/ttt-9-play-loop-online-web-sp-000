@@ -43,7 +43,7 @@ def play(board)
  
  while turn < 9
  turn += 1
- puts valid_move?(board)
+ puts valid_move?(board, index)
   
   end
 end
